@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "name": "Stockflow ( under construction )",
+      "link": "/under-construction",
+      "image": "/projects-image/stockflow1.png",
+      "imageCaption": "Stock management app designed for HoReCa industry.",
+      "introduction": "Stock management app designed for HoReCa industry.",
+      "projectMission": [
+        "Offers a better understanding of your stock, suppliers and orders",
+        "Automate ordering process",
+        "Automate analysis creation",
+        "Alerts on every update via email or whatsapp",
+        "Secure and simple to use"
+      ],
+      "techStack": [
+        { "name": "TypeScript", "icon": "/tech-icons/ts.svg" },
+        { "name": "Next.js", "icon": "/tech-icons/next.svg" },
+        { "name": "Tailwind CSS", "icon": "/tech-icons/tailwind.svg" },
+        { "name": "Shadcn", "icon": "/tech-icons/shadcn.svg" },
+        { "name": "Node.js", "icon": "/tech-icons/node.svg" },
+        { "name": "Express.js", "icon": "/tech-icons/express.svg" },
+        { "name": "MongoDB", "icon": "/tech-icons/mongodb.svg" },
+        { "name": "Mongoose", "icon": "/tech-icons/mongoose.svg" },
+        { "name": "JWT", "icon": "/tech-icons/jwt.svg" },
+        { "name": "Zod", "icon": "/tech-icons/zod.svg" }
+      ],
+      "colorTheme": "gradient-bg-1"
+    },
+    {
+      "name": "Portofolio ( previous version )",
+      "link": "https://new-portofolio-front.onrender.com",
+      "image": "/projects-image/old-portofolio.png",
+      "imageCaption": "Portofolio inspired by the look and functionality of GitHub.",
+      "introduction": "Previous version of my portofolio. Was designed as a fullstack app.",
+      "projectMission": ["Fullstack", "Responsive design"],
+      "techStack": [
+        { "name": "JavaScript", "icon": "/tech-icons/javascript.svg" },
+        { "name": "React", "icon": "/tech-icons/react.svg" },
+        { "name": "Tailwind CSS", "icon": "/tech-icons/tailwind.svg" },
+        { "name": "Axios", "icon": "/tech-icons/axios.svg" },
+        { "name": "Node.js", "icon": "/tech-icons/node.svg" },
+        { "name": "Express.js", "icon": "/tech-icons/express.svg" },
+        { "name": "MongoDB", "icon": "/tech-icons/mongodb.svg" },
+        { "name": "Mongoose", "icon": "/tech-icons/mongoose.svg" },
+        { "name": "GitHub", "icon": "/tech-icons/github.svg" }
+      ],
+      "colorTheme": "gradient-bg-1"
+    },
+    {
+      "name": "Catering",
+      "link": "https://luchian-andrei.github.io/food-website/",
+      "image": "/projects-image/catering.png",
+      "imageCaption": "Landing page for a catering business.",
+      "introduction": "Landing page built after an online mockup as practice.",
+      "projectMission": ["Responsive design"],
+      "techStack": [
+        { "name": "React", "icon": "/tech-icons/react.svg" },
+        { "name": "HTML", "icon": "/tech-icons/html.svg" },
+        { "name": "JavaScript", "icon": "/tech-icons/javascript.svg" },
+        { "name": "CSS", "icon": "/tech-icons/css.svg" }
+      ],
+      "colorTheme": "color-theme-1"
+    },
+    {
+      "name": "Achitecture Agency",
+      "link": "https://luchian-andrei.github.io/architect-website/",
+      "image": "/projects-image/architecture.png",
+      "imageCaption": "Architecture agency landing page",
+      "introduction": "Landing page created for an architecture agency after an online mockup.",
+      "projectMission": ["Responsive design"],
+      "techStack": [
+        { "name": "React", "icon": "/tech-icons/react.svg" },
+        { "name": "HTML", "icon": "/tech-icons/html.svg" },
+        { "name": "JavaScript", "icon": "/tech-icons/javascript.svg" },
+        { "name": "CSS", "icon": "/tech-icons/css.svg" }
+      ],
+      "colorTheme": "color-theme-2"
+    }
+  ]
+}

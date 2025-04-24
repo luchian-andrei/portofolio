@@ -1,0 +1,141 @@
+{
+  "techStack": [
+    { "purpose": "base", "name": "HTML", "icon": "/tech-icons/html.svg" },
+    { "purpose": "base", "name": "CSS", "icon": "/tech-icons/css.svg" },
+    {
+      "purpose": "base",
+      "name": "JavaScript",
+      "icon": "/tech-icons/javascript.svg"
+    },
+    {
+      "purpose": "front-end",
+      "name": "React",
+      "icon": "/tech-icons/react.svg"
+    },
+    {
+      "purpose": "front-end",
+      "name": "Next.js",
+      "icon": "/tech-icons/next.svg"
+    },
+    {
+      "purpose": "front-end",
+      "name": "Redux",
+      "icon": "/tech-icons/redux.svg"
+    },
+    {
+      "purpose": "front-end",
+      "name": "Zustand",
+      "icon": "/tech-icons/zustand.png"
+    },
+    {
+      "purpose": "front-end",
+      "name": "Tailwind CSS",
+      "icon": "/tech-icons/tailwind.svg"
+    },
+    { "purpose": "front-end", "name": "SASS", "icon": "/tech-icons/sass.svg" },
+    {
+      "purpose": "front-end",
+      "name": "React Native",
+      "icon": "/tech-icons/react.svg"
+    },
+    {
+      "purpose": "front-end",
+      "name": "Framer Motion",
+      "icon": "/tech-icons/framer.svg"
+    },
+    {
+      "purpose": "front-end",
+      "name": "Shadcn",
+      "icon": "/tech-icons/shadcn.svg"
+    },
+
+    {
+      "purpose": "back-end",
+      "name": "Node.js",
+      "icon": "/tech-icons/node.svg"
+    },
+    {
+      "purpose": "back-end",
+      "name": "Express.js",
+      "icon": "/tech-icons/express.svg"
+    },
+    { "purpose": "back-end", "name": "Java", "icon": "/tech-icons/java.svg" },
+    {
+      "purpose": "back-end",
+      "name": "Axios",
+      "icon": "/tech-icons/axios.svg"
+    },
+    {
+      "purpose": "back-end",
+      "name": "GraphQL",
+      "icon": "/tech-icons/graphql.svg"
+    },
+    { "purpose": "back-end", "name": "JWT", "icon": "/tech-icons/jwt.svg" },
+
+    {
+      "purpose": "database",
+      "name": "MongoDB",
+      "icon": "/tech-icons/mongodb.svg"
+    },
+    {
+      "purpose": "database",
+      "name": "Mongoose",
+      "icon": "/tech-icons/mongoose.svg"
+    },
+    {
+      "purpose": "database",
+      "name": "PostgreSQL",
+      "icon": "/tech-icons/postgresql.svg"
+    },
+
+    { "purpose": "devOps", "name": "Git", "icon": "/tech-icons/git.svg" },
+    {
+      "purpose": "devOps",
+      "name": "GitHub",
+      "icon": "/tech-icons/github.svg"
+    },
+    {
+      "purpose": "devOps",
+      "name": "Git Actions",
+      "icon": "/tech-icons/gh-action.svg"
+    },
+
+    {
+      "purpose": "additional",
+      "name": "Jest",
+      "icon": "/tech-icons/jest.svg"
+    },
+    { "purpose": "additional", "name": "npm", "icon": "/tech-icons/npm.svg" },
+    {
+      "purpose": "additional",
+      "name": "WebSockets",
+      "icon": "/tech-icons/webpack.svg"
+    },
+    {
+      "purpose": "additional",
+      "name": "Docker",
+      "icon": "/tech-icons/docker.svg"
+    },
+    {
+      "purpose": "additional",
+      "name": "TypeScript",
+      "icon": "/tech-icons/ts.svg"
+    },
+    {
+      "purpose": "additional",
+      "name": "Figma",
+      "icon": "/tech-icons/figma.svg"
+    },
+    {
+      "purpose": "additional",
+      "name": "Jira",
+      "icon": "/tech-icons/jira.svg"
+    },
+    { "purpose": "additional", "name": "Zod", "icon": "/tech-icons/zod.svg" },
+    {
+      "purpose": "additional",
+      "name": "Postman",
+      "icon": "/tech-icons/postman.svg"
+    }
+  ]
+}

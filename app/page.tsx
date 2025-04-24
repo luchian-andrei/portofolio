@@ -8,8 +8,7 @@ import CustomNav from "@/components/CustomNav";
 
 export default function Main() {
   return (
-    <main className="flex flex-col justify-center items-center relative">
-      {/* <p className="text-4xl font-bold my-10">Cauta si vei gasi</p> */}
+    <main className="flex flex-col justify-center items-center bg-[#0a0a0a] gap-32 scroll-smooth scroll-m-3">
       <CustomNav />
       <Home />
       <About />

@@ -1,0 +1,82 @@
+{
+  "containerInfo": [
+    {
+      "category": "who-am-i",
+      "info": ["Luchian Andrei", "22 y.o.", "Student", "Tech enthusiast"],
+      "textColor": "text-red-500"
+    },
+    {
+      "category": "what-i-do",
+      "info": [
+        "Fullstack developer",
+        "I create websites, web platforms, mobile apps and digital solutions for any kind of necessity and problem"
+      ],
+      "textColor": "text-blue-500"
+    },
+    {
+      "category": "why-me",
+      "info": [
+        "I have a great desire to create, learn and improve myself, my work and my skills",
+        "I`m passionate about improving my life and other people's lives using the power of coding and automation",
+        "I can adapt quickly to any kind of situations and come with a suitable solution"
+      ],
+      "textColor": "text-green-500"
+    },
+    {
+      "category": "location",
+      "info": ["Bucharest, Romania", "Remote"],
+      "textColor": "text-yellow-500"
+    },
+    {
+      "category": "disponibility",
+      "info": [
+        "Immediately.",
+        "Open to working on both full-time and part-time roles",
+        "Open to discussions about job offers and opportuinities"
+      ],
+      "textColor": "text-pink-500"
+    }
+  ],
+  "techStack": [
+    { "purpose": "base", "name": "HTML", "icon": "" },
+    { "purpose": "base", "name": "CSS", "icon": "" },
+    { "purpose": "base", "name": "JavaScript", "icon": "" },
+
+    {
+      "purpose": "front-end",
+      "name": "React",
+      "icon": "/tech-icons/react.svg"
+    },
+    { "purpose": "front-end", "name": "Next.js", "icon": "" },
+    { "purpose": "front-end", "name": "Redux", "icon": "" },
+    { "purpose": "front-end", "name": "Zustand", "icon": "" },
+    { "purpose": "front-end", "name": "Tailwind CSS", "icon": "" },
+    { "purpose": "front-end", "name": "SASS", "icon": "" },
+    { "purpose": "front-end", "name": "React Native", "icon": "" },
+    { "purpose": "front-end", "name": "Framer Motion", "icon": "" },
+    { "purpose": "front-end", "name": "Shadcn", "icon": "" },
+
+    { "purpose": "back-end", "name": "Node.js", "icon": "" },
+    { "purpose": "back-end", "name": "Express.js", "icon": "" },
+    { "purpose": "back-end", "name": "Java", "icon": "" },
+    { "purpose": "back-end", "name": "GraphQL", "icon": "" },
+    { "purpose": "back-end", "name": "RestfulAPI", "icon": "" },
+    { "purpose": "back-end", "name": "JWT", "icon": "" },
+
+    { "purpose": "database", "name": "Mongo.db", "icon": "" },
+    { "purpose": "database", "name": "PostgreSQL", "icon": "" },
+
+    { "purpose": "devOps", "name": "Git", "icon": "" },
+    { "purpose": "devOps", "name": "GitHub", "icon": "" },
+    { "purpose": "devOps", "name": "Git Actions", "icon": "" },
+
+    { "purpose": "additional", "name": "Jest", "icon": "" },
+    { "purpose": "additional", "name": "npm", "icon": "" },
+    { "purpose": "additional", "name": "WebSockets", "icon": "" },
+    { "purpose": "additional", "name": "Docker", "icon": "" },
+    { "purpose": "additional", "name": "TypeScript", "icon": "" },
+    { "purpose": "additional", "name": "Figma", "icon": "" },
+    { "purpose": "additional", "name": "Jira", "icon": "" },
+    { "purpose": "additional", "name": "Zod", "icon": "" }
+  ]
+}
