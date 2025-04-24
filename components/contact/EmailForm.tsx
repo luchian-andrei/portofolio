@@ -7,7 +7,7 @@ import { Slide, toast } from "react-toastify";
 import { MailCheck } from "lucide-react";
 
 const EmailForm = () => {
-  const form = useRef(null);
+  const form = useRef<HTMLFormElement>(null);
 
   const succesToast = () =>
     toast(
@@ -34,11 +34,11 @@ const EmailForm = () => {
       }
     );
 
-  const sendEmail = (e: { preventDefault: () => void }) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_7y5s60s", "template_2f7mjg8", form.current, {
+      .sendForm("service_7y5s60s", "template_2f7mjg8", form.current!, {
         publicKey: "NIqHkoP712jgtwnhb",
       })
       .then(
