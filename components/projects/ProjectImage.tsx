@@ -19,17 +19,18 @@ const ProjectImage = ({
   imageCaption: string;
   projectImage: string;
   projectName: string;
-  handleProjectInView: (projectName: string) => void;
+  handleProjectInView?: (projectName: string) => void;
   colorTheme: string;
   link: string;
 }) => {
   const { ref, inView, entry } = useInView({ threshold: 0.5 });
 
   useEffect(() => {
-    if (inView) {
+    if (inView && handleProjectInView) {
       handleProjectInView(projectName);
     }
-  }, [entry]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entry, inView, projectName]);
 
   return (
     <div

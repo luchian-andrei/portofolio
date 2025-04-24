@@ -7,27 +7,22 @@ import ProjectDescription from "./ProjectDescription";
 import data from "../../data/projects.json";
 
 const MobileWorkDisplay = () => {
-  const [projectInView, setProjectInView] = useState<string>("");
   const [shownProjectsNumber, setShownProjectsNumber] = useState<number>(3);
-
   return (
     <div className="w-full lg:hidden flex flex-col p-10 gap-20">
       <div className="lg:w-3/5 w-full flex flex-col gap-52">
         {data.projects.slice(0, shownProjectsNumber).map((project) => (
-          <>
+          <div key={project.name} className="flex flex-col gap-10">
             <ProjectImage
               projectImage={project.image}
               imageCaption={project.imageCaption}
               key={project.name}
               projectName={project.name}
-              handleProjectInView={(projectName) =>
-                setProjectInView(projectName)
-              }
               colorTheme={project.colorTheme}
               link={project.link}
             />
             <ProjectDescription projectInView={project.name} />
-          </>
+          </div>
         ))}
       </div>
       {shownProjectsNumber < 4 && (
