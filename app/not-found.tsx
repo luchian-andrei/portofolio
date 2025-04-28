@@ -10,6 +10,7 @@ export default function NotFound() {
         width={600}
         height={600}
         className="mb-10"
+        unoptimized
       />
       <h1 className="text-5xl font-bold mb-6"> Ooops </h1>
       <h2 className="text-xl mb-6">You were not supposed to land here.</h2>

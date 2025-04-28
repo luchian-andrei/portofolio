@@ -49,9 +49,7 @@
     },
     { "purpose": "front-end", "name": "Next.js", "icon": "" },
     { "purpose": "front-end", "name": "Redux", "icon": "" },
-    { "purpose": "front-end", "name": "Zustand", "icon": "" },
     { "purpose": "front-end", "name": "Tailwind CSS", "icon": "" },
-    { "purpose": "front-end", "name": "SASS", "icon": "" },
     { "purpose": "front-end", "name": "React Native", "icon": "" },
     { "purpose": "front-end", "name": "Framer Motion", "icon": "" },
     { "purpose": "front-end", "name": "Shadcn", "icon": "" },
@@ -60,7 +58,6 @@
     { "purpose": "back-end", "name": "Express.js", "icon": "" },
     { "purpose": "back-end", "name": "Java", "icon": "" },
     { "purpose": "back-end", "name": "GraphQL", "icon": "" },
-    { "purpose": "back-end", "name": "RestfulAPI", "icon": "" },
     { "purpose": "back-end", "name": "JWT", "icon": "" },
 
     { "purpose": "database", "name": "Mongo.db", "icon": "" },
@@ -70,13 +67,9 @@
     { "purpose": "devOps", "name": "GitHub", "icon": "" },
     { "purpose": "devOps", "name": "Git Actions", "icon": "" },
 
-    { "purpose": "additional", "name": "Jest", "icon": "" },
     { "purpose": "additional", "name": "npm", "icon": "" },
-    { "purpose": "additional", "name": "WebSockets", "icon": "" },
-    { "purpose": "additional", "name": "Docker", "icon": "" },
     { "purpose": "additional", "name": "TypeScript", "icon": "" },
     { "purpose": "additional", "name": "Figma", "icon": "" },
-    { "purpose": "additional", "name": "Jira", "icon": "" },
     { "purpose": "additional", "name": "Zod", "icon": "" }
   ]
 }

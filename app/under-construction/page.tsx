@@ -6,11 +6,12 @@ const UnderConstruction = () => {
   return (
     <div className="w-full max-h-screen flex flex-col justify-start items-center mt-10">
       <Image
-        src={"/construction1.svg"}
+        src={"/construction.svg"}
         alt="under-construction"
         width={600}
         height={600}
         className="mb-10"
+        unoptimized
       />
       <h1 className="text-5xl font-bold mb-6">Under construction</h1>
       <p className="text-xl mb-10 w-1/3 flex flex-col">

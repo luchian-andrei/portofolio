@@ -58,6 +58,7 @@ const ProjectImage = ({
             alt={projectImage}
             height={500}
             width={500}
+            unoptimized
           />
         </span>
       </div>

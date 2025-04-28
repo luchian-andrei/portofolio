@@ -12,6 +12,7 @@ const ContactSection = () => {
           alt="footer-icon"
           width={55}
           height={55}
+          unoptimized
         />
         <span className="glowing-text text-2xl font-semibold">
           Luchian Andrei
@@ -32,10 +33,22 @@ const ContactSection = () => {
           href={"https://www.linkedin.com/in/andrei-luchian-b73a69251/"}
           target="_blank"
         >
-          <Image src={"/linkedin.svg"} alt="logo" width={25} height={25} />
+          <Image
+            src={"/linkedin.svg"}
+            alt="logo"
+            width={25}
+            height={25}
+            unoptimized
+          />
         </Link>
         <Link href={"https://github.com/luchian-andrei"} target="_blank">
-          <Image src={"/github.svg"} alt="logo" width={25} height={25} />
+          <Image
+            src={"/github.svg"}
+            alt="logo"
+            width={25}
+            height={25}
+            unoptimized
+          />
         </Link>
         <Link
           href={

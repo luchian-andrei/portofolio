@@ -18,7 +18,7 @@ const Introduction = () => {
   };
 
   return (
-    <div className="sm:w-full w-3/4 h-full justify-center items-center flex flex-col ">
+    <div className="sm:w-full w-3/4 h-full justify-center items-center flex flex-col">
       {/* first text - title */}
       <div className="text-5xl mb-20 font-semibold">
         <motion.p

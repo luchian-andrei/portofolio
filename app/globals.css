@@ -1,44 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@theme {
-  --color-myFavourite: #060606;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  }
-}
-
-@keyframes glowing-image-animation {
-  0% {
-    box-shadow: 5px 5px 30px 1px gold;
-  }
-  50% {
-    box-shadow: 5px 5px 45px 1px gold;
-  }
-  100% {
-    box-shadow: 5px 5px 60px 1px gold;
-  }
-  50% {
-    box-shadow: 5px 5px 45px 1px gold;
-  }
-  0% {
-    box-shadow: 5px 5px 30px 1px gold;
   }
 }
 
@@ -50,8 +22,6 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Outfit", sans-serif;
-  font-weight: normal;
 }
 
 ::-webkit-scrollbar {
@@ -84,13 +54,6 @@ body {
     @apply bg-pink-200 text-pink-700;
   }
 }
-
-/* .glowing-image {
-  animation-duration: 3s;
-  animation-delay: 1s;
-  animation-name: glowing-image-animation;
-  animation-iteration-count: infinite;
-} */
 
 .gradient-bg-1 {
   background: linear-gradient(

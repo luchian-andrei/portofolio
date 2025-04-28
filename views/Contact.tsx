@@ -20,10 +20,22 @@ const Contact = () => {
             href={"https://www.linkedin.com/in/andrei-luchian-b73a69251/"}
             target="_blank"
           >
-            <Image src={"/linkedin.svg"} alt="logo" width={30} height={30} />
+            <Image
+              src={"/linkedin.svg"}
+              alt="logo"
+              width={30}
+              height={30}
+              unoptimized
+            />
           </Link>
           <Link href={"https://github.com/luchian-andrei"} target="_blank">
-            <Image src={"/github.svg"} alt="logo" width={30} height={30} />
+            <Image
+              src={"/github.svg"}
+              alt="logo"
+              width={30}
+              height={30}
+              unoptimized
+            />
           </Link>
           <Link
             href={
