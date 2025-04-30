@@ -18,9 +18,9 @@ const Introduction = () => {
   };
 
   return (
-    <div className="sm:w-full w-3/4 h-full justify-center items-center flex flex-col">
+    <div className="sm:w-full w-3/4 h-full justify-center items-center flex flex-col pb-10 sm:pb-0">
       {/* first text - title */}
-      <div className="text-5xl mb-20 font-semibold">
+      <div className="text-5xl sm:mb-20 mb-10 font-semibold">
         <motion.p
           className="text-5xl sm:mb-20 mb-12 font-semibold text-center leading-14"
           initial={{ transform: "translateY(20px)", opacity: 0 }}

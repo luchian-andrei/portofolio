@@ -46,7 +46,7 @@ const MobileNav = () => {
       )}
 
       {openMenu && (
-        <div className="bg-[#212121] border-[1px] border-[#ffffff26] w-[85vw] h-[50vh] absolute z-50 top-20 flex flex-col py-4 rounded-xl justify-center items-center justify-self-center place-self-center">
+        <div className="bg-[#212121] border-[1px] border-[#ffffff26] w-[85vw] h-fit max-h-[70vh]  absolute z-50 top-20 flex flex-col py-4 rounded-xl justify-center items-center justify-self-center place-self-center">
           <button
             className={`text-3xl font-semibold self-end mr-5 mt-1 text-red-500`}
             onClick={() => setOpenMenu(false)}

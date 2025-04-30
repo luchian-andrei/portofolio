@@ -19,7 +19,7 @@ const InfoFilter = ({
 }: {
   handleFilter: (category: string) => void;
 }) => {
-  const [selectedCategory, setSelectedCategory] = useState<string>("what-i-do");
+  const [selectedCategory, setSelectedCategory] = useState<string>("who-am-i");
 
   return (
     <div className="flex flex-row gap-5 sm:justify-center justify-start items-center w-full h-1/6 overflow-x-scroll">

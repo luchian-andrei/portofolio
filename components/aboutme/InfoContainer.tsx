@@ -9,7 +9,7 @@ const InfoContainer = ({ selectedFilter }: { selectedFilter: string }) => {
   return (
     <div className="py-10 flex flex-col gap-2 w-full justify-start text-start">
       {selectedInfo?.info.map((information: string, index: number) => (
-        <p key={index} className="flex gap-3 flex-row items-center">
+        <p key={index} className="flex gap-3 flex-row items-start">
           <span className={`${selectedInfo.textColor} text-3xl glowing-text`}>
             ✦
           </span>{" "}
