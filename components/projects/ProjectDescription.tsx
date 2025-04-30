@@ -10,7 +10,7 @@ const ProjectDescription = ({ projectInView }: { projectInView: string }) => {
   return (
     <div className="lg:w-2/5 w-full max-h-[600px] h-fit lg:sticky sm:top-48 z-20 flex flex-col justify-center items-start">
       <h2 className="text-3xl font-semibold mb-4"> {projectInView} </h2>
-      <span className="text-[#a3a3a3] text-xl mb-4">
+      <span className="text-[#a3a3a3] text-xl mb-4 text-start">
         {" "}
         {project?.introduction}
       </span>

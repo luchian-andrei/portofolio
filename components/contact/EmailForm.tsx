@@ -4,23 +4,27 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import { Slide, toast } from "react-toastify";
-import { MailCheck } from "lucide-react";
+
+import useScreenSize from "@/hooks/useScreenSize";
 
 const EmailForm = () => {
+  const device = useScreenSize();
+
   const form = useRef<HTMLFormElement>(null);
 
   const succesToast = () =>
     toast(
-      "Your email was received by me and I will reach out to you asap ! Thank you !",
+      "✉️ Your email was sent to me and I will reach out to you asap. Thank you !",
       {
-        position: "bottom-right",
-        icon: <MailCheck />,
+        position: device === "mobile" ? "top-center" : "bottom-right",
         theme: "dark",
         closeOnClick: true,
         hideProgressBar: true,
         transition: Slide,
+        autoClose: false,
+        draggable: true,
         style: {
-          width: "400px",
+          width: device === "mobile" ? "350px" : "400px",
           height: "100px",
           textAlign: "center",
           padding: "10px",
@@ -28,8 +32,10 @@ const EmailForm = () => {
           background: "#0a0a0a",
           boxShadow: "0 4px 30px rgba(0, 0, 0, 0.3)",
           border: "1px solid rgba(255, 255, 255, 0.2)",
+          borderRadius: "10px",
           marginBottom: "20px",
-          marginLeft: "20px",
+          marginTop: device === "mobile" ? "30px" : "0px",
+          marginRight: device === "mobile" ? "0px" : "20px",
         },
       }
     );

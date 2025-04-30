@@ -53,7 +53,7 @@
       "image": "/projects-image/catering.png",
       "imageCaption": "Landing page for a catering business.",
       "introduction": "Landing page built after an online mockup as practice.",
-      "projectMission": ["Responsive design"],
+      "projectMission": ["Responsive design", "Visually pleasing"],
       "techStack": [
         { "name": "React", "icon": "/tech-icons/react.svg" },
         { "name": "HTML", "icon": "/tech-icons/html.svg" },

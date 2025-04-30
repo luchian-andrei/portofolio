@@ -9,18 +9,18 @@ const Introduction = () => {
 
   const introductionTransition = {
     duration: 1,
-    delay: 1.5,
+    delay: 3,
   };
 
   const introductionTransition2 = {
     duration: 1,
-    delay: 2.5,
+    delay: 4,
   };
 
   return (
-    <div className="sm:w-full w-3/4 h-full justify-center items-center flex flex-col pb-10 sm:pb-0">
+    <div className="sm:w-full w-3/4 h-full justify-center items-center flex flex-col pb-28 sm:pb-0">
       {/* first text - title */}
-      <div className="text-5xl sm:mb-20 mb-10 font-semibold">
+      <div className="text-5xl sm:mb-20 mb-5 font-semibold">
         <motion.p
           className="text-5xl sm:mb-20 mb-12 font-semibold text-center leading-14"
           initial={{ transform: "translateY(20px)", opacity: 0 }}

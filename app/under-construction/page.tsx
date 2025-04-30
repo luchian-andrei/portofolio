@@ -1,17 +1,23 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 import "../globals.css";
 
+import useScreenSize from "../../hooks/useScreenSize";
+
 const UnderConstruction = () => {
+  const device = useScreenSize();
+
   return (
-    <div className="w-full max-h-screen flex flex-col justify-start items-center mt-10 bg-[#0a0a0a]">
+    <div className="w-full h-screen flex flex-col justify-start items-center mt-10 bg-[#0a0a0a]">
       <Image
         src={"/construction.svg"}
         alt="under-construction"
-        width={600}
-        height={600}
+        width={device === "mobile" ? 300 : 600}
+        height={device === "mobile" ? 300 : 600}
         className="mb-10"
         unoptimized
       />
