@@ -24,15 +24,9 @@
     },
     {
       "purpose": "front-end",
-      "name": "Zustand",
-      "icon": "/tech-icons/zustand.png"
-    },
-    {
-      "purpose": "front-end",
       "name": "Tailwind CSS",
       "icon": "/tech-icons/tailwind.svg"
     },
-    { "purpose": "front-end", "name": "SASS", "icon": "/tech-icons/sass.svg" },
     {
       "purpose": "front-end",
       "name": "React Native",
@@ -100,22 +94,8 @@
       "icon": "/tech-icons/gh-action.svg"
     },
 
-    {
-      "purpose": "additional",
-      "name": "Jest",
-      "icon": "/tech-icons/jest.svg"
-    },
     { "purpose": "additional", "name": "npm", "icon": "/tech-icons/npm.svg" },
-    {
-      "purpose": "additional",
-      "name": "WebSockets",
-      "icon": "/tech-icons/webpack.svg"
-    },
-    {
-      "purpose": "additional",
-      "name": "Docker",
-      "icon": "/tech-icons/docker.svg"
-    },
+
     {
       "purpose": "additional",
       "name": "TypeScript",
@@ -126,11 +106,7 @@
       "name": "Figma",
       "icon": "/tech-icons/figma.svg"
     },
-    {
-      "purpose": "additional",
-      "name": "Jira",
-      "icon": "/tech-icons/jira.svg"
-    },
+
     { "purpose": "additional", "name": "Zod", "icon": "/tech-icons/zod.svg" },
     {
       "purpose": "additional",

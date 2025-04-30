@@ -28,7 +28,7 @@ const MobileNav = () => {
   }, [openMenu, device]);
 
   return (
-    <div className="w-full flex sm:hidden fixed top-0 h-20  justify-end items-center glass-header z-30 px-4">
+    <div className="w-full flex sm:hidden fixed top-0 h-20  justify-end items-center z-30 px-4">
       <RectangleEllipsis
         width={40}
         height={40}
