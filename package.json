@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mobileDev": "next dev -H 0.0.0.0"
+    "mobileDev": "next dev -H 0.0.0.0",
+    "mobileStart": "next start -H 0.0.0.0 -p 3000"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

@@ -23,7 +23,8 @@
         { "name": "MongoDB", "icon": "/tech-icons/mongodb.svg" },
         { "name": "Mongoose", "icon": "/tech-icons/mongoose.svg" },
         { "name": "JWT", "icon": "/tech-icons/jwt.svg" },
-        { "name": "Zod", "icon": "/tech-icons/zod.svg" }
+        { "name": "Zod", "icon": "/tech-icons/zod.svg" },
+        { "name": "Git Actions", "icon": "/tech-icons/gh-action.svg" }
       ],
       "colorTheme": "gradient-bg-1"
     },
