@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
+import { Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: "#5d21cf",
+};
 
 const outfit = Outfit({
   subsets: ["latin"],

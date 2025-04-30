@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+import "../globals.css";
+
 const UnderConstruction = () => {
   return (
-    <div className="w-full max-h-screen flex flex-col justify-start items-center mt-10">
+    <div className="w-full max-h-screen flex flex-col justify-start items-center mt-10 bg-[#0a0a0a]">
       <Image
         src={"/construction.svg"}
         alt="under-construction"
@@ -13,8 +15,10 @@ const UnderConstruction = () => {
         className="mb-10"
         unoptimized
       />
-      <h1 className="text-5xl font-bold mb-6">Under construction</h1>
-      <p className="text-xl mb-10 w-1/3 flex flex-col">
+      <h1 className="text-5xl font-bold mb-6 text-center">
+        Under construction
+      </h1>
+      <p className="text-xl mb-10 w-3/4 sm:w-1/3 flex flex-col">
         <span className="font-semibold mb-5">
           At the moment, this project is still in the development process but
           you can :

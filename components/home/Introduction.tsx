@@ -22,7 +22,7 @@ const Introduction = () => {
       {/* first text - title */}
       <div className="text-5xl mb-20 font-semibold">
         <motion.p
-          className="text-5xl mb-20 font-semibold text-center leading-14"
+          className="text-5xl sm:mb-20 mb-12 font-semibold text-center leading-14"
           initial={{ transform: "translateY(20px)", opacity: 0 }}
           animate={{ transform: "translateY(0px)", opacity: 1 }}
           transition={hookTransition}

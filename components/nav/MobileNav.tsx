@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { RectangleEllipsis, CircleX } from "lucide-react";
 import Link from "next/link";
 import useScreenSize from "@/hooks/useScreenSize";
 
@@ -28,25 +27,32 @@ const MobileNav = () => {
   }, [openMenu, device]);
 
   return (
-    <div className="w-full flex sm:hidden fixed top-0 h-20  justify-end items-center z-30 px-4">
-      <RectangleEllipsis
-        width={40}
-        height={40}
+    <div
+      className={`w-full flex sm:hidden fixed top-0 h-20   ${
+        openMenu ? "justify-center" : "justify-end"
+      } items-center z-30 px-4`}
+    >
+      <button
+        className={`text-2xl font-semibold   ${openMenu ? "hidden" : "flex"} `}
         onClick={() => setOpenMenu(true)}
-        className={openMenu ? "hidden" : "flex"}
-      />
+      >
+        menu
+      </button>
       {openMenu && (
-        <div className="inset-0 w-full h-screen opacity-40 flex absolute top-0 z-20 bg-[#0a0a0a]"></div>
+        <div
+          className="inset-0 w-full h-screen opacity-40 flex absolute top-0 z-20 bg-[#0a0a0a]"
+          onClick={() => setOpenMenu(false)}
+        ></div>
       )}
 
       {openMenu && (
-        <div className="inset-0 bg-[#212121] border-[1px] border-[#ffffff26] w-[85vw] h-[50vh] absolute z-50 top-20 flex flex-col py-4 rounded-xl justify-center items-center justify-self-center">
-          <CircleX
-            width={40}
-            height={40}
+        <div className="bg-[#212121] border-[1px] border-[#ffffff26] w-[85vw] h-[50vh] absolute z-50 top-20 flex flex-col py-4 rounded-xl justify-center items-center justify-self-center place-self-center">
+          <button
+            className={`text-3xl font-semibold self-end mr-5 mt-1 text-red-500`}
             onClick={() => setOpenMenu(false)}
-            className="self-end mx-4"
-          />
+          >
+            esc
+          </button>
           <nav className="w-full h-full  flex flex-col justify-center items-center text-2xl gap-4 ">
             {links.map((link) => (
               <Link
